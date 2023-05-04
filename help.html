@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Manager | How it works</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--<title>Dashboard Sidebar Menu</title>--> 
+</head>
+<body>
+    <div id="pageloader">
+
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+      
+    </div>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="media/pc (2).png" alt="">
+                </span>
+
+                <div class="texts logo-text">
+                    <span class="name">Index Manager</span>
+                    <span class="profession">Dashboard</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <!-- <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search..."> -->
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="homepage.html" data-titls="Dashboard">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="texts nav-text">Homepage</span>
+                            <!-- <span class="titlehov">Dashboard</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="form.php" data-titles="Application Form">
+                            <i class='bx bx-file icon'></i>
+                            <span class="texts nav-text">Application Form</span>
+                            <!-- <span class="titlehov">Application Form</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="index.php" data-titles="Applicants' List">
+                            <i class='bx bx-table icon' ></i>
+                            <span class="texts nav-text">Applicants' List</span>
+                            <!-- <span class="titlehov">Applicants' List</span> -->
+                        </a>
+                    </li>
+
+                    <li id="active" class="nav-link">
+                        <a href="help.html" data-titles="How it works">
+                            <i class='bx bx-question-mark icon' ></i>
+                            <span class="texts nav-text">How it works</span>
+                            <!-- <span class="titlehov">How it works</span> -->
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="about.html" data-titles="About us">
+                        <i class='bx bx-heart icon' ></i>
+                        <span class="texts nav-text">About us</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text texts">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+
+        <div class="titles">
+            <div class="texts">
+                <a href="homepage.html">
+                    Index Manager
+                    <p>a talent acquisition system for HR Management</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="topper">
+            <div class="headerimg"></div>
+            <div class="headtext"></div>
+            <p>
+                <span class="howhow">how it works</span>
+                <br>
+                <span class="whathow">
+                    This section contains information about the different functions <br>
+                    and capabilities of the website. It is recommended for the user <br>
+                    to acknowledge this page first before using the program. It is <br>
+                    in the developers' best interest to provide a seamless, reliable, <br>
+                    and efficient database for HRM needs.
+                </span>
+            </p>
+        </div>
+        
+        <div class="manual">
+
+            <div class="top">
+
+                <div class="elements">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/1S9axUZT1x8" frameborder="0"></iframe>
+                </div>
+                
+            </div>
+
+            <div class="bottom">
+                <p id="func">Functionalities</p>
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/add.png" alt="1" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> New Applicant </span><br> <br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This button or function transports the user to the form section to encode the details for the records of applicants.
+                            </span>                        
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/form.png" alt="2" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Form Section </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This is where the user encodes the details for their applicants through varying requirements depending on their company's needs. In this case, the developers provided a static list of details needed to be encoded by the user as per the requirements of providing the standard information to be listed for the database of records.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/search.png" alt="3" class="grid-item search">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Search </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                The search bar allows the user to find the list of names they're looking for if the user's table has too many applicants.
+                            </span>                    
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/paging.png" alt="4" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Pagination </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                Pagination occurs when the database has too many applicants to be shown within the website. The solution provided is that the extra applicants will be distributed to another page, and the program provides the necessary pages for the user to navigate their records.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/lightdark.png" alt="5" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Light/Dark Mode </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function allows the layout of the website to change from light theme to dark theme for the comfort of the user.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/update.png" alt="6" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Update Applicant </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function provides a pop-up window that enables the user to update existing information within the records of the table. This specifies which row the user wants to update and the new value will change or modify existing records in a table.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/profile.png" alt="7" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Profiling Applicant  </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function provides a pop-up window that showcases the full information regarding the applicant's records encoded within the database if not present within the table.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/delete.png" alt="8" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Delete Applicant </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function deletes the selected record from the database. 
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/viewdoc.png" alt="9" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> View Documents </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function enables the user to view the stored documents encoded within the applicant's records. The documents uploaded here should only be PDF files as to enable the browser the user's using to render, assess, and download the specified file in the program.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+                <div class="functions" style="grid-auto-flow: row;">       
+
+                    <img src="media/table.png" alt="10" class="grid-item">
+
+                    <span class="definition">
+                        <p class="grid-item">
+                            <span> Photo and Document Section within Forms  </span><br><br>
+                            <hr>
+                            <br>
+                            <span class="funcDefine">
+                                This function is used to specify which column you want to update and the new value will change or modify existing records in a table.
+                            </span>
+                        </p>
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>

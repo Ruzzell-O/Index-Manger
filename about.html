@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Manager</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!----===== font-awesome css =====---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+</head>
+
+<body>
+    <div id="pageloader">
+
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+
+    </div>
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="media/pc (2).png" alt="">
+                </span>
+
+                <div class="texts logo-text">
+                    <span class="name">Index Manager</span>
+                    <span class="profession">Dashboard</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <!-- <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search..."> -->
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="homepage.html" data-titles="Dashboard">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="texts nav-text">Homepage</span>
+                            <!-- <span class="titlehov">Dashboard</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="form.php" data-titles="Application Form">
+                            <i class='bx bx-file icon'></i>
+                            <span class="texts nav-text">Application Form</span>
+                            <!-- <span class="titlehov">Application Form</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="index.php" data-titles="Applicants' List">
+                            <i class='bx bx-table icon'></i>
+                            <span class="texts nav-text">Applicants' List</span>
+                            <!-- <span class="titlehov">Applicants' List</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="help.html" data-titles="How it works">
+                            <i class='bx bx-question-mark icon'></i>
+                            <span class="texts nav-text">How it works</span>
+                            <!-- <span class="titlehov">How it works</span> -->
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li id="active" class="">
+                    <a href="about.html" data-titles="About us">
+                        <i class='bx bx-heart icon'></i>
+                        <span class="texts nav-text">About us</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text texts">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="titles">
+            <div class="texts">
+                <a href="homepage.html">
+                    Index Manager
+                    <p>a talent acquisition system for HR Management</p>
+                </a>
+            </div>
+        </div>
+
+        <section id="about">
+
+            <div id="about1" class="abouts">
+
+                <div class="abouttxt flexers">
+                    <h1 id="h1about">About us</h1>
+                    <p>
+                        These are the developers who operated and formed the Index Manager as you see now. 
+                        With the goal to ensure a reliable interface through semantic code that produces the necessary functions for the program to be operational, 
+                        and provide satisfaction towards the user's experience. They were the ones responsible in forming the tool that will convenience HRM staff in their recording needs.
+                    </p>
+                </div>
+
+                <div class="aboutBg flexers">
+                    <video autoplay loop muted>
+                        <source src="aboutusimages/coderists.mp4"  type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+
+            <div id="about2" class="abouts">
+
+                <div class="elements">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+
+                <div id="mission" class="mv flexers">
+                    <span><i class="fa fa-bullseye" aria-hidden="true"></i> Mission</span>
+                    <hr>
+                    <p>The team's mission is to create a web application with 
+                        functionalities that are applied using the team's own experiences 
+                        and knowledge and create something that works other than the user interface. 
+                        The team will also make the application flexible to ensure a stable working environment with the data 
+                        in just one place and have an efficient operation. In addition, the team also aims 
+                        to create the application as an alternative in storing records of applicants, bringing 
+                        efficiency to the users.
+                    </p>
+                </div>
+
+                <div id="vision" class="mv flexers">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> Vision</span>
+                    <hr>
+                    <p>The team’s vision is to create a web application that will become a 
+                        leading performer in terms of providing effective and quality services 
+                        for the users. The team wants to ensure that the web application can meet 
+                        the expectations of its users. Moreover, the team aims to support Human Resource Managers
+                        by having a user-friendly application that can assist them in handling employee-related 
+                        workload such as managing their application forms. Lastly, we would like to improve the 
+                        web application until it reaches a broader audience.
+                    </p>
+                </div>
+
+            </div>
+
+            <section class="developers">
+                <div class="card">
+                    <div class="bg-image">
+                        <img src="AboutUsImages/bg-image.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="AboutUsImages/ritss.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Richmond Sy</h3>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> Lead Developer</span>
+                        <p>
+                            Provided the basis of the coding with overall functionality and idea of the program. With overseeing 
+                            the progress of the research paper throughout the whole semester.
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/profile.php?id=100078193862095" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                            <a href="https://www.instagram.com/micchon013/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="bg-image">
+                        <img src="AboutUsImages/bg-image.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="AboutUsImages/dugs.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Milson Rowin L. Trinidad</h3>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> Assistant Developer</span>
+                        <p>
+                            Assisted in developing some parts of the functionality like the forms, table, 
+                            and update while also contributing in the research paper's content.
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/milsonrowin.trinidad" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                            <a href="https://www.instagram.com/milson_trinidad/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="bg-image">
+                        <img src="AboutUsImages/bg-image.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="AboutUsImages/jess.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Jessica Danielle Erasmo</h3>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> Designer</span>
+                        <p>
+                            Designed the overall look and theme of the website, as well as the flow of the program. 
+                            Provided the necessary proofreading for the research paper's contents given by the other members.
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/jez.erasmo" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                            <a href="https://www.instagram.com/jezzi_rasmo/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="bg-image">
+                        <img src="AboutUsImages/bg-image.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="AboutUsImages/ruz.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Ruzzel Onggod</h3>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> Assistant Designer</span>
+                        <p>
+                            Assisted in some parts of the website, namely the forms and update section, making the sections more easier to operate. 
+                            Provided content for the research paper, notably, the flowchart and some parts of the chapter 1.
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/ORuzzell3" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="bg-image">
+                        <img src="AboutUsImages/bg-image.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="AboutUsImages/gab.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3> Jan Gabriel Angeles</h3>
+                        <span><i class="fa fa-code" aria-hidden="true"></i>  Editor and Validator</span>
+                        <p>
+                            Provides editing for the videos and presentations for the team, as well as validating 
+                            the concepts of the research paper and program if these are suited and easily understood for the users.
+    
+    
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/jan.gabriel48/" class="fa fa-facebook" target="_blank" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+    </section>
+
+</body>
+
+</html>

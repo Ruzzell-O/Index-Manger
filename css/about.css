@@ -1,0 +1,201 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    transition: all .2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --card-primary: #f0f0f0;
+    --info-primary: #222;
+    --paragraph-primary: #222;
+    --span-primary: #ff5e4d;
+    --h1-primary: #620000;
+    --h3-primary: #222;
+    --icon-primary: #ff5e4d;
+    --icon-hover-primary: #ffb0a7;
+    --about1-grad1-primary: #FAF7E8;
+    --about2-primary: rgb(209, 209, 209);
+    --about-mission-primary: #e6c1c1cc;
+    --about-missiontxt-primary: rgb(0, 0, 0);
+    --about-vissiontxt-primary: #DE7C5A;
+    --about-vision-primary: #e4a3a3b2;
+}
+
+body.dark{
+    --card-primary: #222;
+    --info-primary: #f0f0f0;
+    --paragraph-primary: #ffb6a3;
+    --span-primary: #ff8d81;
+    --h1-primary: #DE7C5A;
+    --h3-primary: #f0f0f0;
+    --icon-primary: #ff8d81;
+    --icon-hover-primary: #f0f0f0;
+    --about1-grad1-primary:#222222;
+    --about1-primary: #333;
+    --about2-primary: #444;
+    --about-mission-primary: rgb(41, 41, 41);
+    --about-missiontxt-primary: rgb(209, 208, 208);
+    --about-vissiontxt-primary: rgb(209, 208, 208);
+    --about-vision-primary: rgb(43, 43, 43);
+}
+
+.home #about{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.home #about .abouts{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.home #about .abouts .flexers, video{
+    flex: 50%;
+}
+
+@media (max-width: 1500px) {
+    .home #about .abouts {
+      flex-direction: column;
+    }
+}
+
+.home #about #about1{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.home #about #about1 .abouttxt{
+    background: var(--about1-grad1-primary);
+    padding: 90px 100px;
+}
+
+#about #about1 .abouttxt h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: var(--h1-primary);
+}
+
+#about #about1 .abouttxt p{
+    color: var(--paragraph-primary);
+    font-size: 15px;
+}
+
+.home #about #about1 .aboutBg{
+    height: auto;
+    padding: 0;
+}
+
+#about #about1 .aboutBg video{
+    height: 100%;
+    width: 1000px;
+    margin: 0;
+}
+
+.home #about #about2{
+    height: auto;
+    background: linear-gradient(var(--grad-anime2) 0%, var(--grad-anime) 50%);
+    padding: 70px 80px;
+}
+
+.home #about #about2 .mv{
+    padding: 50px 100px;
+    margin-right: 25px;
+    height: 350px;
+    width: 600px;
+    z-index: 5;
+}
+
+#about #about2 .mv span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#about #about2 .mv hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-color: var(--about-missiontxt-primary);
+}
+
+.home #about #about2 #mission{
+    background-color: var(--about-mission-primary);
+    color: var(--about-missiontxt-primary);
+}
+
+.home #about #about2 #vision{
+    background-color: var(--about-vision-primary);
+    color: var(--about-missiontxt-primary);
+}
+
+.developers{
+    height: auto;
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: var(--about1-grad1-primary);
+}
+
+.card{
+    height: 580px;
+    width: 290px;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgb(204, 39, 39);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--card-primary);
+}
+
+.card .bg-image img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
+}
+
+.card .pic img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--card-primary);
+    margin-top: -90px;
+    position: relative;
+}
+
+.card .info h3{
+    color: var(--h3-primary);
+    font-size: 14px;
+}
+
+.card .info span{
+    font-size: 15px;
+    color: var(--span-primary);
+}
+
+.card .info p{
+    font-size: 15px;
+    padding: 15px 15px;
+    color: var(--info-primary);
+}
+
+.card .info .icons a{
+    font-size: 20px;
+    color: var(--icon-primary);
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.card .info .icons a:hover{
+    color: var(--icon-hover-primary);
+    
+}

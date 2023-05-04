@@ -1,0 +1,74 @@
+.modal-dialog {
+    max-width: 1000px;
+    min-width: 1000px;
+    padding: 10px 60px;
+}
+
+.modal-body{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 0;
+    width: 100%;  
+    margin-left: 60px;
+    margin-right: 0;
+    /* padding: 10px 30px; */
+    /* background-color: aqua; */
+}
+
+.item20{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item20 #bilog input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}
+
+.item20 #bilog label{
+    margin-right: 15px;
+}
+
+.items{
+    margin-bottom: 13px;
+    padding: 0 10px;
+}
+
+#addforms .boxinput .formTitle{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.modal-body .boxinput input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc !important;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease !important;
+}
+
+.modal-body .boxinput input[type="file"]{
+    font-size: 16px;
+    height: 50px;
+    padding-left: 0px;
+    background:white;
+    outline:none;
+}
+
+::-webkit-file-upload-button{
+    height: auto;
+    width: auto;
+    color:white;
+    background:#6B0504;
+    padding:15px;
+    border:none;
+}
+
+
+
